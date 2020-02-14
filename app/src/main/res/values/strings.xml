@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Prove06</string>
+    <string name="prompt">Enter a City Name</string>
+    <string name="city">City</string>
+    <string name="temp">Temperature</string>
+    <string name="forc">Forcast</string>
+</resources>
