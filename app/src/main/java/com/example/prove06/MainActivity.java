@@ -7,6 +7,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ListView;
+
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     public String city;
@@ -33,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
         Log.d("MainActivity", city);
         backgroundForcast forcast = new backgroundForcast(this, city);
         Thread thread = new Thread(forcast);
-
         thread.start();
+
 
     }
 }
